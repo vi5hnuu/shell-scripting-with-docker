@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  ubuntu:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - V:\shell_scripting\scripts:/scripts:rw
+    restart: always
+    image: ubuntu-vim
+    container_name: ubuntu-vim-v
+    stdin_open: true
+    tty: true
