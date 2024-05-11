@@ -1,1 +1,2 @@
-<!-- docker compose run --rm ubuntu -->
+HOW TO USE ::
+  docker compose run --rm ubuntu
