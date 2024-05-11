@@ -17,4 +17,4 @@ echo "echo\twith\tescapes"
 echo -e "echo\twith\tescapes"
 
 echo -e "\e[1;31mThis is a red text \e[0m"
-echo -e "\e[1;42mThis is a green background \e[0m"
+echo -e "\e[1;42mThis is a green bg\e[0m"
